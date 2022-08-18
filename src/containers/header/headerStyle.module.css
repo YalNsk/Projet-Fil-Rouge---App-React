@@ -1,0 +1,17 @@
+.appbar {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        
+}
+
+.appbar .title {
+    font-weight: 900;
+    flex-grow: 1;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
