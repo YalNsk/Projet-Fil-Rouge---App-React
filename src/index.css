@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Mouse+Memoirs&display=swap');
 
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(152deg, rgba(247,206,216,1) 0%, rgba(169,194,221,1) 85%, rgba(209,199,163,1) 100%);
+  background: linear-gradient(152deg, rgba(137,255,250,1) 0%, rgba(155,138,240,1) 51%, rgba(255,186,237,1) 100%);
+  justify-content: center;
+  padding-top: 50px;
 }
 
 code {

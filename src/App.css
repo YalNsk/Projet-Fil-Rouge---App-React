@@ -1,4 +1,23 @@
 .App {
   text-align: center;
+  padding: 10px;
+  background: rgba(228, 228, 228, 0.315);
+  width: 80vw;
 }
 
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.drawer > div {
+  top: auto ;
+  left: auto;
+  height: 75vh;
+  border-bottom-left-radius: 16px;
+  position: sticky;
+  width: 15vw;
+  background: rgba(255, 255, 255, 0.219);
+  color: rgb(51, 51, 51);
+  
+}

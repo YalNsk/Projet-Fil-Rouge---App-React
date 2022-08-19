@@ -7,14 +7,13 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/MenuRounded';
 
 
-const Header = ({onOpenMenu}) => {
+const Header = () => {
 
     return (
         <header>
             <AppBar position ='static' className={style.appbar}>
                 <Toolbar>
                         <IconButton
-                        onClick = {() => onOpenMenu()}
                         size='large'
                         edge='start' 
                         color='inherit'
@@ -22,7 +21,6 @@ const Header = ({onOpenMenu}) => {
                         sx={{ mr: 2 }}
                         >
 
-                        <MenuIcon />
                         
                         </IconButton>
 
