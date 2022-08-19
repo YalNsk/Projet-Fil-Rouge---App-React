@@ -1,8 +1,15 @@
+import TitlePage from "../../component/title-page/title-page";
+
 const About = ()  => {
 
     return (
         <>
-            A propos ! 
+        <TitlePage>
+                    
+                    A propos ! 
+
+        </TitlePage>
+            
 
         </>
     );

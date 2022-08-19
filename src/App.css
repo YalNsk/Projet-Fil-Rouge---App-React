@@ -3,10 +3,17 @@
   padding: 10px;
   background: rgba(228, 228, 228, 0.315);
   width: 80vw;
+  border-bottom-right-radius: 16px;
+  
+}
+
+.App h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto;
 }
 

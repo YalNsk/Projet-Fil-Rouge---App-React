@@ -1,8 +1,13 @@
+import TitlePage from "../../component/title-page/title-page";
+
 const NotFound = ()  => {
 
     return (
         <>
-            Page non trouvée  😭😭😭😭😭😭
+            <TitlePage>
+                    Page non trouvée  😭😭😭
+            </TitlePage>
+            
 
         </>
     );
